@@ -105,7 +105,7 @@ def _generate_response(job_resp):
     
     else:
         url = job_resp['url']
-        job_list = job_resp['data'][:5]
+        job_list = job_resp['data'][:5] + job_resp['data'][-4:]
 
         prompt = f"""
         You are given with the list of dictionaries of jobs. You have to convert it into a table in html with only three columes:

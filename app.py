@@ -59,17 +59,6 @@ def call_agent():
     data = request.get_json()
     ip_addr = str(request.remote_addr)
 
-    # sample_html_text = """
-    #     <head>
-    #         <title>Sample HTML</title>
-    #     </head>
-    #     <body>
-    #         <h1>Hello, World!</h1>
-    #         <p>This is a sample HTML response.</p>
-    #     </body>
-    # """
-
-    # return jsonify({"success": True, "data": sample_html_text}), 200
     try:
         response_ans = agents.callAgent(data['user_query'], ip_addr)
         return jsonify({

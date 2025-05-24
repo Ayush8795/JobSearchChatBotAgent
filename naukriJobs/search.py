@@ -66,16 +66,19 @@ def parse_search_query(user_query):
 def _filter_jobs(jobs):
     checkList = set()
     filtered_jobs = []
+
     for job in jobs:
-        if job['jobId'] not in checkList:
+
+        if job['jobId'] not in checkList and 'jdURL' in job and 'title' in job and 'companyName' in job:
+            jdurl = job['jdURL'][1:] if job['jdURL'].startswith("/") else job['jdURL']
             filtered_jobs.append({
-                "title": job['title'] if 'title' in job else "",
-                "companyName": job['companyName'] if 'companyName' in job else "",
-                "experience": job['placeholders'][0]['label'],
-                "salary": job['placeholders'][1]['label'],
-                "location": job['placeholders'][2]['label'],
-                "jobUrl": base_url + job['jdURL'],
-                "description": job['jobDescription']
+                "title": job['title'],
+                "companyName": job['companyName'],
+                "experience": job['placeholders'][0]['label'] if 'placeholders' in job and len(job['placeholders']) > 0 else "",
+                "salary": job['placeholders'][1]['label'] if 'placeholders' in job and len(job['placeholders']) > 1 else "",
+                "location": job['placeholders'][2]['label'] if 'placeholders' in job and len(job['placeholders']) > 2 else "",
+                "jobUrl": base_url + jdurl,
+                "description": job['jobDescription'] if 'jobDescription' in job else "",
             })
             checkList.add(job['jobId'])
     

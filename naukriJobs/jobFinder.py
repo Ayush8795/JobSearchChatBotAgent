@@ -2,6 +2,7 @@ from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 import requests
+import json
 
 base_url = "https://www.naukri.com/"
 
@@ -31,10 +32,11 @@ def _get_response(request):
                 return None
             if 'jobDetails' not in json_resp:
                 return None
-            
+            with open("checkResponse.json", "w") as f:
+                json.dump(json_resp, f, indent = 4)
             return json_resp
         else:
-            print("skipping request: ", request.url)
+            # print("skipping request: ", request.url)
             return None
     except Exception as e:
         print("Error: ", e)
@@ -46,8 +48,7 @@ def search_jobs(search_url):
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     driver = webdriver.Chrome(options=chrome_options)
-    
-    print(search_url)
+
     driver.get(search_url)
     print("sleep for 3 sec")
     time.sleep(3)
@@ -61,19 +62,20 @@ def search_jobs(search_url):
             job_response = _get_response(request)
             if not job_response:
                 continue
-
-            found_resp['url'] = _parse_seoKey(job_response['queryParamMap']['seoKey'])
-            found_resp['jobs'] = job_response['jobDetails']
-            print("=="*30)
-            print(found_resp['url'])
-            print(job_response['jobDetails'][0]['title'])
-            print("=="*30)
+            
+            if 'queryParamMap' not in job_response or 'seoKey' not in job_response['queryParamMap']:
+                found_resp['url'] = _parse_seoKey(search_url.split("/")[-1])
+                found_resp['jobs'] = job_response['jobDetails']
+            
+            else:
+                found_resp['url'] = _parse_seoKey(job_response['queryParamMap']['seoKey'])
+                found_resp['jobs'] = job_response['jobDetails']
             break
     
     return found_resp
 
 
-# listt = search_jobs("https://www.naukri.com/sales-jobs-in-hyderabad-secunderabad-3")
+# listt = search_jobs("https://www.naukri.com/business-analyst-jobs-in-bangalore")
 # print(listt)
 # with open("testnaukri.json", "w") as f:
 #     json.dump(listt, f, indent = 4)
