@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #111 0%, #333 100%);
+            color: #fff;
+            font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+        .chat-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+            padding: 24px 18px 18px 18px;
+            display: flex;
+            flex-direction: column;
+            min-height: 70vh;
+        }
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            margin-bottom: 16px;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px 14px;
+            border-radius: 8px;
+            max-width: 80%;
+            word-break: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .user {
+            background: #444;
+            align-self: flex-end;
+        }
+        .bot {
+            background: #111;
+            align-self: flex-start;
+        }
+        /* Styles for rendered HTML content */
+        .bot h1, .bot h2, .bot h3 {
+            color: #fff;
+            margin: 8px 0;
+        }
+        .bot p {
+            margin: 8px 0;
+            line-height: 1.4;
+        }
+        .bot a {
+            color: #66ccff;
+        }
+        .bot ul, .bot ol {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        .bot iframe {
+            max-width: 100%;
+            max-height: 350px;
+            border: 1px solid #444;
+            border-radius: 4px;
+        }
+        .bot pre {
+            background: #333;
+            padding: 8px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 0.9em;
+        }
+        .bot code {
+            background: #333;
+            padding: 2px 4px;
+            border-radius: 2px;
+            font-size: 0.9em;
+        }
+        .input-row {
+            display: flex;
+            gap: 8px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            background: #333;
+            color: #fff;
+            font-size: 1em;
+        }
+        button {
+            background: #444;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 18px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages" id="messages" style="overflow-y: auto; max-height: 60vh;"></div>
+        <form class="input-row" id="chat-form" autocomplete="off">
+            <input type="text" id="user-input" placeholder="Type your message..." required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script>
+        const messagesDiv = document.getElementById('messages');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+
+        function appendMessage(text, sender, isTypewriter=false, isHtml=false) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `message ${sender}`;
+            messagesDiv.appendChild(msgDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            
+            if (isHtml) {
+                // Check if it's a complete HTML document
+                if (text.includes('<!DOCTYPE') || text.includes('<html>')) {
+                    // Create an iframe for complete HTML documents
+                    const iframe = document.createElement('iframe');
+                    iframe.style.width = '100%';
+                    iframe.style.height = '300px';
+                    iframe.style.minHeight = '200px';
+                    iframe.style.maxHeight = '350px';
+                    iframe.style.border = '1px solid #444';
+                    iframe.style.borderRadius = '4px';
+                    iframe.style.backgroundColor = '#fff';
+                    iframe.srcdoc = text;
+                    msgDiv.appendChild(iframe);
+                } else {
+                    // For HTML fragments, render directly with size constraints
+                    const contentDiv = document.createElement('div');
+                    contentDiv.style.maxHeight = '300px';
+                    contentDiv.style.overflow = 'auto';
+                    contentDiv.innerHTML = text;
+                    msgDiv.appendChild(contentDiv);
+                }
+            } else if (isTypewriter) {
+                typeWriterEffect(msgDiv, text);
+            } else {
+                msgDiv.innerHTML = text;
+            }
+        }
+
+        function typeWriterEffect(element, text, i=0) {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                setTimeout(() => typeWriterEffect(element, text, i+1), 20);
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            }
+        }
+
+        function isHtmlContent(text) {
+            // Simple check to see if content contains HTML tags
+            return /<[^>]+>/.test(text);
+        }
+
+        chatForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const query = userInput.value.trim();
+            if (!query) return;
+            appendMessage(query, 'user');
+            userInput.value = '';
+            try {
+                const response = await fetch('/call-agent/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ user_query: query })
+                });
+                const data = await response.json();
+                if (data.success) {
+                    const responseText = data.data || 'No response';
+                    const isHtml = isHtmlContent(responseText);
+                    appendMessage(responseText, 'bot', !isHtml, isHtml);
+                } else {
+                    appendMessage(data.error || 'No response', 'bot', true);
+                }
+            } catch (err) {
+                appendMessage('Error contacting server.', 'bot', true);
+            }
+        });
+    </script>
+</body>
+</html>
