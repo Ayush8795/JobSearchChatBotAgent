@@ -1,0 +1,1933 @@
+{
+    "noOfJobs": 5877,
+    "clusters": {
+        "salaryRange": [
+            {
+                "id": "0to3",
+                "count": 1506,
+                "label": "0-3 Lakhs"
+            },
+            {
+                "id": "3to6",
+                "count": 3657,
+                "label": "3-6 Lakhs"
+            },
+            {
+                "id": "6to10",
+                "count": 3110,
+                "label": "6-10 Lakhs"
+            },
+            {
+                "id": "10to15",
+                "count": 1244,
+                "label": "10-15 Lakhs"
+            },
+            {
+                "id": "15to25",
+                "count": 448,
+                "label": "15-25 Lakhs"
+            },
+            {
+                "id": "25to50",
+                "count": 219,
+                "label": "25-50 Lakhs"
+            },
+            {
+                "id": "50to75",
+                "count": 29,
+                "label": "50-75 Lakhs"
+            },
+            {
+                "id": "75to100",
+                "count": 8,
+                "label": "75-100 Lakhs"
+            },
+            {
+                "id": "100to500",
+                "count": 8,
+                "label": "1-5 Cr"
+            }
+        ],
+        "wfhType": [
+            {
+                "id": "0",
+                "count": 5710,
+                "label": "Work from office"
+            },
+            {
+                "id": "3",
+                "count": 85,
+                "label": "Hybrid"
+            },
+            {
+                "id": "2",
+                "count": 81,
+                "label": "Remote"
+            },
+            {
+                "id": "1",
+                "count": 1,
+                "label": "Temp. WFH due to covid"
+            }
+        ],
+        "topGroupId": [
+            {
+                "id": "106364",
+                "count": 23,
+                "label": "Cvent"
+            },
+            {
+                "id": "10476",
+                "count": 22,
+                "label": "Accenture"
+            },
+            {
+                "id": "601264",
+                "count": 10,
+                "label": "Innovaccer"
+            },
+            {
+                "id": "154040",
+                "count": 9,
+                "label": "Adidas"
+            },
+            {
+                "id": "243080",
+                "count": 9,
+                "label": "EY"
+            },
+            {
+                "id": "3739708",
+                "count": 8,
+                "label": "ION"
+            },
+            {
+                "id": "144830",
+                "count": 7,
+                "label": "Paytm"
+            },
+            {
+                "id": "4599467",
+                "count": 7,
+                "label": "Hike"
+            },
+            {
+                "id": "4574895",
+                "count": 6,
+                "label": "Droom"
+            },
+            {
+                "id": "244334",
+                "count": 5,
+                "label": "Adobe"
+            },
+            {
+                "id": "13254",
+                "count": 4,
+                "label": "Philips"
+            },
+            {
+                "id": "392462",
+                "count": 4,
+                "label": "Uflex"
+            },
+            {
+                "id": "4588365",
+                "count": 4,
+                "label": "Comviva Technology"
+            },
+            {
+                "id": "4656351",
+                "count": 4,
+                "label": "Gartner"
+            },
+            {
+                "id": "869714",
+                "count": 4,
+                "label": "Marriott"
+            }
+        ],
+        "stipend": [
+            {
+                "id": "unpaid",
+                "count": 258,
+                "label": "Unpaid"
+            },
+            {
+                "id": "0To10",
+                "count": 22,
+                "label": "0-10k"
+            },
+            {
+                "id": "10To20",
+                "count": 31,
+                "label": "10k-20k"
+            },
+            {
+                "id": "20To30",
+                "count": 3,
+                "label": "20k-30k"
+            }
+        ],
+        "employement": [
+            {
+                "id": "1",
+                "count": 5425,
+                "label": "Company Jobs"
+            },
+            {
+                "id": "2",
+                "count": 452,
+                "label": "Consultant Jobs"
+            }
+        ],
+        "featuredCompanies": [
+            {
+                "id": "22108",
+                "count": 3,
+                "label": "Apeejay Stya Group",
+                "url": "/apeejay-stya-group-jobs-careers-22108?keyword=marketing&location=delhi&src=fcc&companyId=22108"
+            }
+        ],
+        "business_size": [
+            {
+                "id": "211",
+                "count": 902,
+                "label": "Corporate"
+            },
+            {
+                "id": "213",
+                "count": 255,
+                "label": "Foreign MNC"
+            },
+            {
+                "id": "62",
+                "count": 232,
+                "label": "Startup"
+            },
+            {
+                "id": "217",
+                "count": 124,
+                "label": "Indian MNC"
+            },
+            {
+                "id": "63",
+                "count": 8,
+                "label": "Others"
+            },
+            {
+                "id": "215",
+                "count": 3,
+                "label": "Govt/PSU"
+            }
+        ],
+        "citiesGid": [
+            {
+                "id": "9508",
+                "count": 5867,
+                "label": "Delhi / NCR"
+            },
+            {
+                "id": "6",
+                "count": 2405,
+                "label": "New Delhi"
+            },
+            {
+                "id": "73",
+                "count": 1645,
+                "label": "Gurugram"
+            },
+            {
+                "id": "220",
+                "count": 1427,
+                "label": "Noida"
+            },
+            {
+                "id": "9509",
+                "count": 587,
+                "label": "Mumbai (All Areas)"
+            },
+            {
+                "id": "134",
+                "count": 543,
+                "label": "Mumbai"
+            },
+            {
+                "id": "97",
+                "count": 538,
+                "label": "Bengaluru"
+            },
+            {
+                "id": "17",
+                "count": 435,
+                "label": "Hyderabad"
+            },
+            {
+                "id": "183",
+                "count": 433,
+                "label": "Chennai"
+            },
+            {
+                "id": "139",
+                "count": 430,
+                "label": "Pune"
+            },
+            {
+                "id": "232",
+                "count": 406,
+                "label": "Kolkata"
+            },
+            {
+                "id": "72",
+                "count": 139,
+                "label": "Faridabad"
+            },
+            {
+                "id": "213",
+                "count": 131,
+                "label": "Ghaziabad"
+            },
+            {
+                "id": "350",
+                "count": 62,
+                "label": "Greater Noida"
+            },
+            {
+                "id": "51",
+                "count": 37,
+                "label": "Ahmedabad"
+            },
+            {
+                "id": "216",
+                "count": 27,
+                "label": "Lucknow"
+            },
+            {
+                "id": "173",
+                "count": 26,
+                "label": "Jaipur"
+            },
+            {
+                "id": "38",
+                "count": 24,
+                "label": "Patna"
+            },
+            {
+                "id": "215",
+                "count": 18,
+                "label": "Kanpur"
+            },
+            {
+                "id": "125",
+                "count": 17,
+                "label": "Indore"
+            },
+            {
+                "id": "4",
+                "count": 16,
+                "label": "Chandigarh"
+            },
+            {
+                "id": "208",
+                "count": 14,
+                "label": "Agra"
+            },
+            {
+                "id": "319",
+                "count": 14,
+                "label": "Sonipat"
+            },
+            {
+                "id": "77",
+                "count": 14,
+                "label": "Panipat"
+            },
+            {
+                "id": "74",
+                "count": 13,
+                "label": "Hisar"
+            }
+        ],
+        "functionalAreaGid": [
+            {
+                "id": "9",
+                "count": 5877,
+                "label": "Marketing & Communication"
+            },
+            {
+                "id": "14",
+                "count": 15986,
+                "label": "Sales & Business Development"
+            },
+            {
+                "id": "2",
+                "count": 4448,
+                "label": "Customer Success, Service & Operations"
+            },
+            {
+                "id": "5",
+                "count": 4123,
+                "label": "Engineering - Software & QA"
+            },
+            {
+                "id": "6",
+                "count": 3412,
+                "label": "Finance & Accounting"
+            },
+            {
+                "id": "7",
+                "count": 2122,
+                "label": "Human Resources"
+            },
+            {
+                "id": "1",
+                "count": 1696,
+                "label": "BFSI, Investments & Trading"
+            },
+            {
+                "id": "3",
+                "count": 1661,
+                "label": "Data Science & Analytics"
+            },
+            {
+                "id": "15",
+                "count": 1503,
+                "label": "UX, Design & Architecture"
+            },
+            {
+                "id": "12",
+                "count": 1450,
+                "label": "Project & Program Management"
+            },
+            {
+                "id": "29",
+                "count": 1098,
+                "label": "Procurement & Supply Chain"
+            },
+            {
+                "id": "20",
+                "count": 1042,
+                "label": "Content, Editorial & Journalism"
+            },
+            {
+                "id": "16",
+                "count": 1010,
+                "label": "Administration & Facilities"
+            },
+            {
+                "id": "37",
+                "count": 963,
+                "label": "Other"
+            },
+            {
+                "id": "19",
+                "count": 934,
+                "label": "Consulting"
+            }
+        ],
+        "internshipDuration": [
+            {
+                "id": "1",
+                "count": 5,
+                "label": "1 Month"
+            },
+            {
+                "id": "2",
+                "count": 11,
+                "label": "2 Months"
+            },
+            {
+                "id": "3",
+                "count": 77,
+                "label": "3 Months"
+            },
+            {
+                "id": "4",
+                "count": 5,
+                "label": "4 Months"
+            },
+            {
+                "id": "5",
+                "count": 1,
+                "label": "5 Months"
+            },
+            {
+                "id": "6",
+                "count": 35,
+                "label": "6 Months"
+            },
+            {
+                "id": "-1",
+                "count": 180,
+                "label": "Flexible"
+            }
+        ],
+        "ugCourseGid": [
+            {
+                "id": "9502",
+                "count": 5284,
+                "label": "Any Graduate"
+            },
+            {
+                "id": "12",
+                "count": 227,
+                "label": "B.Tech/B.E."
+            },
+            {
+                "id": "5",
+                "count": 101,
+                "label": "B.B.A/ B.M.S"
+            },
+            {
+                "id": "9501",
+                "count": 93,
+                "label": "Graduation Not Required"
+            },
+            {
+                "id": "2",
+                "count": 64,
+                "label": "B.A"
+            },
+            {
+                "id": "11",
+                "count": 54,
+                "label": "B.Sc"
+            },
+            {
+                "id": "15",
+                "count": 53,
+                "label": "Diploma"
+            },
+            {
+                "id": "4",
+                "count": 48,
+                "label": "BCA"
+            },
+            {
+                "id": "6",
+                "count": 31,
+                "label": "B.Com"
+            },
+            {
+                "id": "9999",
+                "count": 15,
+                "label": "Other Graduate"
+            },
+            {
+                "id": "40",
+                "count": 9,
+                "label": "B.Des."
+            },
+            {
+                "id": "10",
+                "count": 6,
+                "label": "B.Pharma"
+            },
+            {
+                "id": "14",
+                "count": 4,
+                "label": "MBBS"
+            }
+        ],
+        "glbl_RoleCat": [
+            {
+                "id": "1048",
+                "count": 2415,
+                "label": "Digital Marketing"
+            },
+            {
+                "id": "1050",
+                "count": 1797,
+                "label": "Marketing"
+            },
+            {
+                "id": "1046",
+                "count": 755,
+                "label": "Advertising & Creative"
+            },
+            {
+                "id": "1047",
+                "count": 647,
+                "label": "Corporate Communication"
+            },
+            {
+                "id": "1051",
+                "count": 153,
+                "label": "Marketing and Communication - Other"
+            },
+            {
+                "id": "1049",
+                "count": 110,
+                "label": "Market Research & Insights"
+            }
+        ],
+        "pgCourseGid": [
+            {
+                "id": "9511",
+                "count": 4093,
+                "label": "Any Postgraduate"
+            },
+            {
+                "id": "13",
+                "count": 571,
+                "label": "MBA/PGDM"
+            },
+            {
+                "id": "9510",
+                "count": 204,
+                "label": "Post Graduation Not Required"
+            },
+            {
+                "id": "14",
+                "count": 35,
+                "label": "MCA"
+            },
+            {
+                "id": "12",
+                "count": 26,
+                "label": "M.Tech"
+            },
+            {
+                "id": "6",
+                "count": 22,
+                "label": "M.A"
+            },
+            {
+                "id": "11",
+                "count": 22,
+                "label": "MS/M.Sc(Science)"
+            },
+            {
+                "id": "4",
+                "count": 13,
+                "label": "Integrated PG"
+            },
+            {
+                "id": "16",
+                "count": 12,
+                "label": "PG Diploma"
+            },
+            {
+                "id": "8",
+                "count": 11,
+                "label": "M.Com"
+            },
+            {
+                "id": "15",
+                "count": 7,
+                "label": "Medical-MS/MD"
+            },
+            {
+                "id": "9999",
+                "count": 7,
+                "label": "Other Post Graduate"
+            }
+        ],
+        "industryTypeGid": [
+            {
+                "id": "109",
+                "count": 1363,
+                "label": "IT Services & Consulting"
+            },
+            {
+                "id": "172",
+                "count": 1029,
+                "label": "Advertising & Marketing"
+            },
+            {
+                "id": "133",
+                "count": 271,
+                "label": "Education / Training"
+            },
+            {
+                "id": "108",
+                "count": 216,
+                "label": "Internet"
+            },
+            {
+                "id": "110",
+                "count": 216,
+                "label": "Software Product"
+            },
+            {
+                "id": "175",
+                "count": 158,
+                "label": "Film / Music / Entertainment"
+            },
+            {
+                "id": "126",
+                "count": 152,
+                "label": "Management Consulting"
+            },
+            {
+                "id": "169",
+                "count": 152,
+                "label": "Real Estate"
+            },
+            {
+                "id": "127",
+                "count": 151,
+                "label": "Recruitment / Staffing"
+            },
+            {
+                "id": "131",
+                "count": 125,
+                "label": "Medical Services / Hospital"
+            },
+            {
+                "id": "174",
+                "count": 100,
+                "label": "Events / Live Entertainment"
+            },
+            {
+                "id": "145",
+                "count": 94,
+                "label": "Retail"
+            },
+            {
+                "id": "147",
+                "count": 93,
+                "label": "Travel & Tourism"
+            },
+            {
+                "id": "184",
+                "count": 91,
+                "label": "NGO / Social Services / Industry Associations"
+            },
+            {
+                "id": "134",
+                "count": 82,
+                "label": "E-Learning / EdTech"
+            }
+        ]
+    },
+    "jobDetails": [
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/4567992.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/4567992.gif",
+            "jobId": "180624500256",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Grocio",
+            "isSaved": false,
+            "tagsAndSkills": "data analysis,marketing strategies,android,presentation skills,market research,research,strategic planning,people skills",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-2 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida"
+                }
+            ],
+            "companyId": 5461458,
+            "jdURL": "/job-listings-marketing-executive-grocio-noida-0-to-2-years-180624500256",
+            "staticUrl": "grocio-jobs-careers-5461458",
+            "jobDescription": "He / she must bring forth a strong arsenal of techniques and methods to promote our products,services,and public image<br><br>Proven experience as Marketing executive or similar role (Freshers are also welcomed) . Ability to persuade and influence others<br><br> Enthusiasm and willingness to learn<br><br> Having an Android Smartphone is a must. .",
+            "showMultipleApply": false,
+            "groupId": 4567992,
+            "isTopGroup": 0,
+            "createdDate": 1718688397000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-2 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/8015369.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/8015369.gif",
+            "jobId": "130125503027",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Kota Career Classes",
+            "isSaved": false,
+            "tagsAndSkills": "visualforce,customization,branding,sfdc,advertising,triggers,tracking,dashboards",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-3 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "New Delhi, Kolkata, Mumbai, Hyderabad, Pune, Chennai, Bengaluru"
+                }
+            ],
+            "companyId": 5676848,
+            "jdURL": "/job-listings-marketing-executive-kota-classes-kolkata-mumbai-new-delhi-hyderabad-pune-chennai-bengaluru-0-to-3-years-130125503027",
+            "staticUrl": "kota-career-classes-jobs-careers-5676848",
+            "jobDescription": "<ol> <li> Researching and brainstorming each stage of the project. </li> <li> Delegating assignments to members of the graphics and advertising departments, as needed. </li> <li> Supervising employees' work, providing direction and clarification, as needed. </li> <li> Ensuring adherence to clients' specifications. </li> <li> Coordinating efforts to ensure that campaigns are completed. </li> <li> Adhering to time and financial restrictions. </li> <li> Tracking changes in consumer engagement following the roll-out of each marketing campaign. </li> <li> Compiling reports detailing the effects exerted by each campaign, and sharing these with clients. </li>  </ol>",
+            "showMultipleApply": false,
+            "groupId": 8015369,
+            "isTopGroup": 0,
+            "createdDate": 1736763898000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-3 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/6399755.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/6399755.gif",
+            "jobId": "120724502154",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Bssitech",
+            "isSaved": false,
+            "tagsAndSkills": "digital marketing,marketing strategies,channel sales,branding,direct marketing,business development,market research,media",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-1 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "New Delhi"
+                }
+            ],
+            "companyId": 124285548,
+            "jdURL": "/job-listings-marketing-executive-bssitech-new-delhi-0-to-1-years-120724502154",
+            "staticUrl": "bssitech-jobs-careers-124285548",
+            "jobDescription": "BSSITECH is looking for Marketing Executive to join our dynamic team and embark on a rewarding career journey  <div> <strong> </strong> </div> <ul> <li> Develop and implement marketing strategies and campaigns.  </li> <li> Conduct market research to identify new opportunities.  </li> <li> Manage social media accounts and online presence.  </li> <li> Create and distribute promotional materials.  </li> <li> Organize and participate in marketing events and conferences.  </li> <li> Analyze marketing data and metrics to measure success.  </li> <li> Collaborate with the sales team to align marketing efforts.  </li> </ul>",
+            "showMultipleApply": false,
+            "groupId": 6399755,
+            "isTopGroup": 0,
+            "createdDate": 1720787583000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-1 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executives  - Domestic Market",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/2915352.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/2915352.gif",
+            "jobId": "270923501773",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Fablian Technologies",
+            "isSaved": false,
+            "tagsAndSkills": "Data analysis,Time management,Market research,Brand awareness,MS Office,Marketing Executive,Statistics,Microsoft",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-3 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida"
+                }
+            ],
+            "companyId": 3643818,
+            "jdURL": "/job-listings-marketing-executives-domestic-market-fablian-technologies-noida-0-to-3-years-270923501773",
+            "staticUrl": "fablian-technologies-jobs-careers-3643818",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/fablian-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 3,
+                "AggregateRating": "3.5",
+                "Title": "Fablian Technologies Reviews by Employees"
+            },
+            "jobDescription": "Excellent communication and people skills . Strong organizational and time-management abilities . Proficient in MS Office and marketing software(egCRM) <br><br>Conducting market research and analysis to evaluate trends,brand awareness and competition ventures . Good understanding of market research techniques,data analysis and statistics methods .",
+            "showMultipleApply": false,
+            "groupId": 2915352,
+            "isTopGroup": 0,
+            "createdDate": 1695835391000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-3 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/6997885.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/6997885.gif",
+            "jobId": "211024503798",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Callerdesk.io",
+            "isSaved": false,
+            "tagsAndSkills": "digital marketing,customer relationship,branding,business development,media,advertising,research,sales",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-2 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida"
+                }
+            ],
+            "companyId": 124438608,
+            "jdURL": "/job-listings-marketing-executive-callerdesk-noida-0-to-2-years-211024503798",
+            "staticUrl": "callerdesk-io-jobs-careers-124438608",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/callerdesk-dot-io-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 4,
+                "AggregateRating": "2.8",
+                "Title": "CallerDesk.io Reviews by Employees"
+            },
+            "jobDescription": "At least 2 years experience in marketing. Strong knowledge of the market",
+            "showMultipleApply": false,
+            "groupId": 6997885,
+            "isTopGroup": 0,
+            "createdDate": 1729513227000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-2 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10936110.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10936110.gif",
+            "jobId": "200924504527",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Creative Build Works",
+            "isSaved": false,
+            "tagsAndSkills": "visualforce,branding,sfdc,business development,advertising,triggers,tracking,dashboards",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-4 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Ghaziabad"
+                }
+            ],
+            "companyId": 124272924,
+            "jdURL": "/job-listings-marketing-executive-creative-build-works-ghaziabad-0-to-4-years-200924504527",
+            "staticUrl": "creative-build-works-jobs-careers-124272924",
+            "jobDescription": "Creative Build Works is looking for Marketing Executive to join our dynamic team and embark on a rewarding career journey <ol> <li> Researching and brainstorming each stage of the project. </li> <li> Delegating assignments to members of the graphics and advertising departments, as needed. </li> <li> Supervising employees' work, providing direction and clarification, as needed. </li> <li> Ensuring adherence to clients' specifications. </li> <li> Coordinating efforts to ensure that campaigns are completed. </li> <li> Adhering to time and financial restrictions. </li> <li> Tracking changes in consumer engagement following the roll-out of each marketing campaign. </li> <li> Compiling reports detailing the effects exerted by each campaign, and sharing these with clients. </li>  </ol>",
+            "showMultipleApply": false,
+            "groupId": 10936110,
+            "isTopGroup": 0,
+            "createdDate": 1726836123000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-4 Yrs",
+            "saved": false
+        },
+        {
+            "title": "MARKETING EXECUTIVE",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/7868969.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/7868969.gif",
+            "jobId": "140224500035",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Syrotech",
+            "isSaved": false,
+            "tagsAndSkills": "visualforce,branding,sfdc,business development,advertising,triggers,tracking,dashboards",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-2 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida"
+                }
+            ],
+            "companyId": 123559067,
+            "jdURL": "/job-listings-marketing-executive-syrotech-noida-0-to-2-years-140224500035",
+            "staticUrl": "syrotech-jobs-careers-123559067",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/syrotech-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 11,
+                "AggregateRating": "3.7",
+                "Title": "Syrotech Networks Reviews by Employees"
+            },
+            "jobDescription": "Syrotech is looking for MARKETING EXECUTIVE to join our dynamic team and embark on a rewarding career journey  <ol> <li> Researching and brainstorming each stage of the project.  </li> <li> Delegating assignments to members of the graphics and advertising departments, as needed.  </li> <li> Supervising employees' work, providing direction and clarification, as needed.  </li> <li> Ensuring adherence to clients' specifications.  </li> <li> Coordinating efforts to ensure that campaigns are completed.  </li> <li> Adhering to time and financial restrictions.  </li> <li> Tracking changes in consumer engagement following the roll-out of each marketing campaign.  </li> <li> Compiling reports detailing the effects exerted by each campaign, and sharing these with clients.  </li>  </ol>",
+            "showMultipleApply": false,
+            "groupId": 7868969,
+            "isTopGroup": 0,
+            "createdDate": 1707887373000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-2 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/4409966.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/4409966.gif",
+            "jobId": "090523501546",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Mega Realty",
+            "isSaved": false,
+            "tagsAndSkills": "Data analysis,Web analytics,Social media,Strategic planning,Market research,Brand awareness,Promotional events,Marketing Executive",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-3 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Gurugram, United States (USA)"
+                }
+            ],
+            "companyId": 123711041,
+            "jdURL": "/job-listings-marketing-executive-mega-realty-gurugram-united-states-usa-0-to-3-years-090523501546",
+            "staticUrl": "mega-realty-jobs-careers-123711041",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/mega-realty-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 13,
+                "AggregateRating": "3.4",
+                "Title": "Mega Realty Reviews by Employees"
+            },
+            "jobDescription": "He / she must bring forth a strong arsenal of techniques and methods to promote our products,services and public image<br><br>Thorough knowledge of strategic planning principles and marketing best practices . Proficient in MS Office and marketing software (e.g",
+            "showMultipleApply": false,
+            "groupId": 4409966,
+            "isTopGroup": 0,
+            "createdDate": 1683637851000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-3 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10781410.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10781410.gif",
+            "jobId": "060924501206",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Inteligenai",
+            "isSaved": false,
+            "tagsAndSkills": "Illustrator,adobe creative suite,Social media,Marketing campaigns,Brand awareness,Digital marketing,Photoshop,Marketing communication",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-2 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Gurugram"
+                }
+            ],
+            "companyId": 124362968,
+            "jdURL": "/job-listings-marketing-executive-inteligenai-gurugram-0-to-2-years-060924501206",
+            "staticUrl": "inteligenai-jobs-careers-124362968",
+            "jobDescription": "What We Offer:  . Hands-on experience with real-world marketing projects . .",
+            "showMultipleApply": false,
+            "groupId": 10781410,
+            "isTopGroup": 0,
+            "createdDate": 1725626991000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-2 Yrs",
+            "saved": false
+        },
+        {
+            "title": "MARKETING EXECUTIVE",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10936110.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10936110.gif",
+            "jobId": "031024500009",
+            "currency": "INR",
+            "footerPlaceholderLabel": "30+ Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Creative Build Works",
+            "isSaved": false,
+            "tagsAndSkills": "visualforce,branding,sfdc,business development,advertising,triggers,tracking,dashboards",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-4 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Ghaziabad"
+                }
+            ],
+            "companyId": 124272924,
+            "jdURL": "/job-listings-marketing-executive-creative-build-works-ghaziabad-0-to-4-years-031024500009",
+            "staticUrl": "creative-build-works-jobs-careers-124272924",
+            "jobDescription": "Creative Build Works is looking for MARKETING EXECUTIVE to join our dynamic team and embark on a rewarding career journey <ol> <li> Researching and brainstorming each stage of the project. </li> <li> Delegating assignments to members of the graphics and advertising departments, as needed. </li> <li> Supervising employees' work, providing direction and clarification, as needed. </li> <li> Ensuring adherence to clients' specifications. </li> <li> Coordinating efforts to ensure that campaigns are completed. </li> <li> Adhering to time and financial restrictions. </li> <li> Tracking changes in consumer engagement following the roll-out of each marketing campaign. </li> <li> Compiling reports detailing the effects exerted by each campaign, and sharing these with clients. </li>  </ol>\n\n,",
+            "showMultipleApply": false,
+            "groupId": 10936110,
+            "isTopGroup": 0,
+            "createdDate": 1727931190000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "0-4 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Ad Sales Executives / Marketing /sales - Fine Art Magazine",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/1857390.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/1857390.gif",
+            "jobId": "200525019635",
+            "currency": "INR",
+            "footerPlaceholderLabel": "4 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "ART Culture Festival. in",
+            "isSaved": false,
+            "tagsAndSkills": "Digital Ad Sales  Magazine Ad Sales  Marketing  Tie-ups & Collaborations  Revenue Generation  Communication & Negotiation,Tie-ups & Collaborations,Communication Skills,Media Sales,Ad Sales,Revenue Generation,Marketing Promotions,Negotiation skills",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-5 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "15-30 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Delhi / NCR(Defence Colony)"
+                }
+            ],
+            "companyId": 2423262,
+            "jdURL": "/job-listings-ad-sales-executives-marketing-sales-fine-art-magazine-art-culture-festival-in-delhi-ncr-0-to-5-years-200525019635",
+            "staticUrl": "art-cultural-festival-reviews-jobs-careers-2423262",
+            "jobDescription": "Digital Ad sales\nTie up\nCollaborations \nMagazine Ad sales \nRevenue generation \nPart full  time",
+            "showMultipleApply": false,
+            "groupId": 1857390,
+            "isTopGroup": 0,
+            "createdDate": 1747724997274,
+            "mode": "jp",
+            "board": "1",
+            "vacancy": 6,
+            "experienceText": "0-5 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Manager- International Marketing",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/3643190.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/3643190.gif",
+            "jobId": "210525503787",
+            "currency": "INR",
+            "footerPlaceholderLabel": "2 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Addverb Technologies",
+            "isSaved": false,
+            "tagsAndSkills": "Global marketing,digital analytics,Social media,Market research,Brand awareness,International marketing,Digital marketing,Material handling",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "2-4 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida"
+                }
+            ],
+            "companyId": 4471610,
+            "jdURL": "/job-listings-manager-international-marketing-addverb-technologies-noida-2-to-4-years-210525503787",
+            "staticUrl": "addverb-technologies-jobs-careers-3346368",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/addverb-technologies-pvt-limited-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 366,
+                "AggregateRating": "3.6",
+                "Title": "Addverb Technologies Reviews by Employees"
+            },
+            "jobDescription": "Role . As a Manager- International Marketing you are required to liaise with International teams and lead the development and execution of International marketing strategies that drive global brand awareness and market expansion<br><br>Accepted file types: pdf,doc,docx,maximum file size: 20 MB<br><br>Experience in Digital marketing Social media,Email etc",
+            "showMultipleApply": false,
+            "groupId": 3643190,
+            "isTopGroup": 0,
+            "createdDate": 1747828315000,
+            "mode": "crawled",
+            "board": "1",
+            "experienceText": "2-4 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Affiliate Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/5881504.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/5881504.gif",
+            "jobId": "210525025600",
+            "currency": "INR",
+            "footerPlaceholderLabel": "2 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "ASK Media",
+            "isSaved": false,
+            "tagsAndSkills": "Flexible,Affiliate Marketing,Mathematics,Sales,Fresher,Social Media Marketing,Attention to Detail,Marketing",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-1 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "2-3.5 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Gurugram"
+                }
+            ],
+            "companyId": 6517194,
+            "jdURL": "/job-listings-affiliate-marketing-executive-ask-media-gurugram-0-to-1-years-210525025600",
+            "staticUrl": "ask-media-jobs-careers-6517194",
+            "jobDescription": "Affiliate Executive will manage and monitor real-time social media campaigns, coordinate and negotiate with vendors, and onboard affiliates\nStrong communication and organizational skills required for campaign optimization and performance enhancement",
+            "showMultipleApply": false,
+            "groupId": 5881504,
+            "isTopGroup": 0,
+            "createdDate": 1747822726180,
+            "mode": "jp",
+            "board": "1",
+            "experienceText": "0-1 Yrs",
+            "saved": false
+        },
+        {
+            "title": "General Manager - Sales and Marketing",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/523702.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/523702.gif",
+            "jobId": "250325024766",
+            "currency": "INR",
+            "footerPlaceholderLabel": "7 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Immunosciences ",
+            "isSaved": false,
+            "tagsAndSkills": "Marketing Strategy,Pharmaceutical Sales,Revenue Growth,Brand Management,Patient-Centric Marketing,Biopharmaceutical Marketing,Pharmaceutical,Marketing management",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "10-20 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "10-18 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Delhi / NCR(Okhla Phase 2)"
+                }
+            ],
+            "companyId": 5299000,
+            "jdURL": "/job-listings-general-manager-sales-and-marketing-immunosciences-delhi-ncr-10-to-20-years-250325024766",
+            "staticUrl": "cancer-healer-centre-jobs-careers-5299000",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/cancer-healer-center-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 40,
+                "AggregateRating": "4.4",
+                "Title": "CANCER HEALER CENTER Reviews by Employees"
+            },
+            "jobDescription": "Bachelor s degree in Business Administration,Marketing,Life Sciences,or a related field<br><br>Minimum 10+ years of experience in sales and marketing,preferably within the supplements or healthcare industry. <br><br>MBA preferred<br><br>This role will also involve overseeing the customer care function to ensure a seamless experience for our clients and end customers",
+            "showMultipleApply": false,
+            "groupId": 523702,
+            "isTopGroup": 0,
+            "createdDate": 1747397768027,
+            "mode": "jp",
+            "board": "1",
+            "experienceText": "10-20 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing/Sales Executive/Manager",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "jobId": "020525018283",
+            "currency": "INR",
+            "footerPlaceholderLabel": "21 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Delhi Rajasthan Transport Company",
+            "isSaved": false,
+            "tagsAndSkills": "Sales And Marketing,Marketing,Marketing Strategy,Sales,Business Development,Sales executive activities,Marketing management,Development",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-5 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "2-6 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "New Delhi, Vijayawada, Karnal"
+                }
+            ],
+            "companyId": 124091418,
+            "jdURL": "/job-listings-marketing-sales-executive-manager-delhi-rajasthan-transport-company-vijayawada-new-delhi-karnal-0-to-5-years-020525018283",
+            "staticUrl": "delhi-rajasthan-transport-jobs-careers-124091418",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/delhi-transport-corporation-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 87,
+                "AggregateRating": "4.0",
+                "Title": "Delhi Transport Corporation Reviews by Employees"
+            },
+            "jobDescription": "<p><strong>Candidate will be responsible for</strong> <strong>developing, executing and managing company's marketing efforts to promote its brand, products or services.</strong> <strong>Key job duties will include:</strong></p><ul><li><strong>Identifying industry trends and incorporating new ideas into marketing strategy</strong></li><li><strong>Developing, managing, and executing quarterly or annual marketing plan (for the entire marketing department or your specialized area)</strong></li><li><strong>Defining and/or updating the key performance indicators (KPIs) relevant to marketing efforts, tracking success towards those goals, and providing accurate stakeholder updates</strong></li><li><strong>Conducting market research</strong></li><li><strong>Managing the company's public relations efforts</strong></li></ul><br /><p><strong>To Apply- Email on- hrd@drtcindia.com</strong></p><br />",
+            "showMultipleApply": false,
+            "groupId": 10198582,
+            "isTopGroup": 0,
+            "createdDate": 1746199240493,
+            "mode": "jp",
+            "board": "1",
+            "vacancy": 5,
+            "experienceText": "0-5 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing/Sales Executive/Manager",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "jobId": "020525018454",
+            "currency": "INR",
+            "footerPlaceholderLabel": "21 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Delhi Rajasthan Transport Company",
+            "isSaved": false,
+            "tagsAndSkills": "Sales And Marketing,Sales,Business Development,Marketing,Sales executive activities,Development,Management",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-5 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "2-6 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Panipat, Ludhiana, Ghaziabad"
+                }
+            ],
+            "companyId": 124091418,
+            "jdURL": "/job-listings-marketing-sales-executive-manager-delhi-rajasthan-transport-company-panipat-ludhiana-ghaziabad-0-to-5-years-020525018454",
+            "staticUrl": "delhi-rajasthan-transport-jobs-careers-124091418",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/delhi-transport-corporation-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 87,
+                "AggregateRating": "4.0",
+                "Title": "Delhi Transport Corporation Reviews by Employees"
+            },
+            "jobDescription": "<p><strong>Candidate will be responsible for</strong> <strong>developing, executing and managing company's marketing efforts to promote its brand, products or services.</strong> <strong>Key job duties will include:</strong></p><ul><li><strong>Identifying industry trends and incorporating new ideas into marketing strategy</strong></li><li><strong>Developing, managing, and executing quarterly or annual marketing plan (for the entire marketing department or your specialized area)</strong></li><li><strong>Defining and/or updating the key performance indicators (KPIs) relevant to marketing efforts, tracking success towards those goals, and providing accurate stakeholder updates</strong></li><li><strong>Conducting market research</strong></li><li><strong>Managing the company's public relations efforts</strong></li></ul><br /><p><strong>To Apply- Email on- hrd@drtcindia.com</strong></p><br /><br />",
+            "showMultipleApply": false,
+            "groupId": 10198582,
+            "isTopGroup": 0,
+            "createdDate": 1746202258267,
+            "mode": "jp",
+            "board": "1",
+            "experienceText": "0-5 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing/Sales Executive/Manager",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/10198582.gif",
+            "jobId": "020525018423",
+            "currency": "INR",
+            "footerPlaceholderLabel": "21 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Delhi Rajasthan Transport Company",
+            "isSaved": false,
+            "tagsAndSkills": "Marketing,Sales,Sales And Marketing,Business Development,Management,Sales executive activities,Development",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "0-5 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "2-6 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Noida, Faridabad, Gurugram"
+                }
+            ],
+            "companyId": 124091418,
+            "jdURL": "/job-listings-marketing-sales-executive-manager-delhi-rajasthan-transport-company-noida-faridabad-gurugram-0-to-5-years-020525018423",
+            "staticUrl": "delhi-rajasthan-transport-jobs-careers-124091418",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/delhi-transport-corporation-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 87,
+                "AggregateRating": "4.0",
+                "Title": "Delhi Transport Corporation Reviews by Employees"
+            },
+            "jobDescription": "<p> </p><p>Candidate will be responsible for developing, executing and managing company's marketing efforts to promote its brand, products or services. Key job duties will include:</p><ul><li>Identifying industry trends and incorporating new ideas into marketing strategy</li><li>Developing, managing, and executing quarterly or annual marketing plan (for the entire marketing department or your specialized area)</li><li>Defining and/or updating the key performance indicators (KPIs) relevant to marketing efforts, tracking success towards those goals, and providing accurate stakeholder updates</li><li>Conducting market research</li><li>Managing the company's public relations efforts</li></ul><br /><p><strong>To Apply- Email on- hrd@drtcindia.com</strong></p><br /><br />",
+            "showMultipleApply": false,
+            "groupId": 10198582,
+            "isTopGroup": 0,
+            "createdDate": 1746201644715,
+            "mode": "jp",
+            "board": "1",
+            "vacancy": 5,
+            "experienceText": "0-5 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/11765007.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/11765007.gif",
+            "jobId": "150525019488",
+            "jobType": "WALK IN",
+            "currency": "INR",
+            "footerPlaceholderLabel": "8 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "M K Green Energy",
+            "isSaved": false,
+            "tagsAndSkills": "Solar Rooftop,Solar Panel,Solar Project,SOLAR POWER,Solar Design,Design,Panels,Project",
+            "placeholders": [
+                {
+                    "type": "date",
+                    "label": "18 May - 24 May"
+                },
+                {
+                    "type": "salary",
+                    "label": "1.5-3.5 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "New Delhi(Najafgarh)"
+                }
+            ],
+            "companyId": 124794647,
+            "jdURL": "/job-listings-marketing-executive-m-k-green-energy-new-delhi-2-to-7-years-150525019488",
+            "staticUrl": "m-k-green-energy-jobs-careers-124794647",
+            "jobDescription": "<p><strong>Role & responsibilities:</strong></p><p>Outline the day-to-day responsibilities for this role.</p><br /><p><strong>Preferred candidate profile:</strong></p><p>Specify required role expertise, previous job experience, or relevant certifications.</p>",
+            "showMultipleApply": false,
+            "groupId": 11765007,
+            "isTopGroup": 0,
+            "createdDate": 1747306276897,
+            "brandingTags": [
+                {
+                    "id": "1",
+                    "label": "women"
+                },
+                {
+                    "id": "2",
+                    "label": "women returning to work"
+                }
+            ],
+            "exclusive": false,
+            "diversityTagText": "Prefers women",
+            "diversityCountLabel": "+1",
+            "mode": "jp",
+            "board": "1",
+            "vacancy": 10,
+            "experienceText": "2-7 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Marketing Executive",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/4577505.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/4577505.gif",
+            "jobId": "090525003799",
+            "currency": "INR",
+            "footerPlaceholderLabel": "15 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "Aarti Steels",
+            "isSaved": false,
+            "tagsAndSkills": "Sales And Marketing,Sponge Iron,Business Development,Data Analytics,Sales,Marketing,Iron,Analytics",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "3-5 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "Not disclosed"
+                },
+                {
+                    "type": "location",
+                    "label": "Gurugram"
+                }
+            ],
+            "companyId": 123785235,
+            "jdURL": "/job-listings-marketing-executive-aarti-steels-gurugram-3-to-5-years-090525003799",
+            "staticUrl": "aarti-steels-jobs-careers-1403660",
+            "ambitionBoxData": {
+                "Url": "https://www.ambitionbox.com/reviews/aarti-steels-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri",
+                "ReviewsCount": 226,
+                "AggregateRating": "3.8",
+                "Title": "Aarti Steels Reviews by Employees"
+            },
+            "jobDescription": "Graduate in any discipline<br><br>Education: Graduate (Any stream). <br><br>Location: Gurgaon (with travel to Rajasthan,Himachal,Punjab,UP as required)<br><br>Experience Required: 3 to 5 years. <br><br>Travel Requirement: Frequent travel within North India<br><br>Good communication skills in English and Hindi<br><br>Willingness to travel frequently and engage in ground-level marketing activities",
+            "showMultipleApply": false,
+            "groupId": 4577505,
+            "isTopGroup": 0,
+            "createdDate": 1746761095490,
+            "mode": "jp",
+            "board": "1",
+            "experienceText": "3-5 Yrs",
+            "saved": false
+        },
+        {
+            "title": "Elevator MNC Co Hiring For \" Sales & Marketing Executive \"-Delhi",
+            "logoPath": "https://img.naukimg.com/logo_images/groups/v1/1623226.gif",
+            "logoPathV3": "https://img.naukimg.com/logo_images/groups/v1/1623226.gif",
+            "jobId": "130525021891",
+            "currency": "INR",
+            "footerPlaceholderLabel": "10 Days Ago",
+            "footerPlaceholderColor": "grey",
+            "companyName": "ESS Cee Hr Solutions",
+            "isSaved": false,
+            "tagsAndSkills": "Sales And Marketing,Field Marketing,Elevators,Client Interaction,Offline Marketing,Brand Promotion,Marketing Activities,Industrial Marketing",
+            "placeholders": [
+                {
+                    "type": "experience",
+                    "label": "2-7 Yrs"
+                },
+                {
+                    "type": "salary",
+                    "label": "7-10 Lacs PA"
+                },
+                {
+                    "type": "location",
+                    "label": "Delhi / NCR"
+                }
+            ],
+            "companyId": 2146004,
+            "jdURL": "/job-listings-elevator-mnc-co-hiring-for-sales-marketing-executive-delhi-ess-cee-hr-solutions-delhi-ncr-2-to-7-years-130525021891",
+            "staticUrl": "ess-cee-hr-solutions-jobs-careers-2146004",
+            "jobDescription": "Create sales and marketing plans that align with the company's goals\n\nInteract with customers, colleagues, clients, and media, brand promotion\n\nClient facing role- Brand  promotion, Market analysis, lead generation, sales\n\nFrequent travelling",
+            "showMultipleApply": false,
+            "groupId": 1623226,
+            "isTopGroup": 0,
+            "createdDate": 1747138819698,
+            "consultant": true,
+            "hideClientName": false,
+            "mode": "jp",
+            "clientLogo": "https://img.naukimg.com/logo_images/groups/v1/1623226.gif",
+            "board": "1",
+            "experienceText": "2-7 Yrs",
+            "saved": false
+        }
+    ],
+    "fatFooter": [
+        {
+            "tab": "Bangalore",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs In Bangalore",
+                    "url": "https://www.naukri.com/bd-jobs-in-bangalore"
+                },
+                {
+                    "text": "Branding Jobs In Bangalore",
+                    "url": "https://www.naukri.com/branding-jobs-in-bangalore"
+                },
+                {
+                    "text": "Bde Jobs In Bangalore",
+                    "url": "https://www.naukri.com/bde-jobs-in-bangalore"
+                },
+                {
+                    "text": "Fresher Jobs In Bangalore",
+                    "url": "https://www.naukri.com/fresher-jobs-in-bangalore"
+                },
+                {
+                    "text": "Bdm Jobs In Bangalore",
+                    "url": "https://www.naukri.com/bdm-jobs-in-bangalore"
+                },
+                {
+                    "text": "Selling Jobs In Bangalore",
+                    "url": "https://www.naukri.com/selling-jobs-in-bangalore"
+                },
+                {
+                    "text": "Promotion Jobs In Bangalore",
+                    "url": "https://www.naukri.com/promotion-jobs-in-bangalore"
+                },
+                {
+                    "text": "Insurance Jobs In Bangalore",
+                    "url": "https://www.naukri.com/insurance-jobs-in-bangalore"
+                },
+                {
+                    "text": "Business Jobs In Bangalore",
+                    "url": "https://www.naukri.com/business-jobs-in-bangalore"
+                },
+                {
+                    "text": "Btl Jobs In Bangalore",
+                    "url": "https://www.naukri.com/btl-jobs-in-bangalore"
+                }
+            ]
+        },
+        {
+            "tab": "Delhi NCR",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/bd-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Branding Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/branding-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Bde Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/bde-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Fresher Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/fresher-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Bdm Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/bdm-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Selling Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/selling-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Promotion Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/promotion-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Insurance Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/insurance-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Business Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/business-jobs-in-delhi-ncr"
+                },
+                {
+                    "text": "Btl Jobs In Delhi NCR",
+                    "url": "https://www.naukri.com/btl-jobs-in-delhi-ncr"
+                }
+            ]
+        },
+        {
+            "tab": "Hyderabad Secunderabad",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/bd-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Branding Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/branding-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Bde Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/bde-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Fresher Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/fresher-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Bdm Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/bdm-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Selling Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/selling-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Promotion Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/promotion-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Insurance Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/insurance-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Business Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/business-jobs-in-hyderabad-secunderabad"
+                },
+                {
+                    "text": "Btl Jobs In Hyderabad Secunderabad",
+                    "url": "https://www.naukri.com/btl-jobs-in-hyderabad-secunderabad"
+                }
+            ]
+        },
+        {
+            "tab": "Mumbai",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs In Mumbai",
+                    "url": "https://www.naukri.com/bd-jobs-in-mumbai"
+                },
+                {
+                    "text": "Branding Jobs In Mumbai",
+                    "url": "https://www.naukri.com/branding-jobs-in-mumbai"
+                },
+                {
+                    "text": "Bde Jobs In Mumbai",
+                    "url": "https://www.naukri.com/bde-jobs-in-mumbai"
+                },
+                {
+                    "text": "Fresher Jobs In Mumbai",
+                    "url": "https://www.naukri.com/fresher-jobs-in-mumbai"
+                },
+                {
+                    "text": "Bdm Jobs In Mumbai",
+                    "url": "https://www.naukri.com/bdm-jobs-in-mumbai"
+                },
+                {
+                    "text": "Selling Jobs In Mumbai",
+                    "url": "https://www.naukri.com/selling-jobs-in-mumbai"
+                },
+                {
+                    "text": "Promotion Jobs In Mumbai",
+                    "url": "https://www.naukri.com/promotion-jobs-in-mumbai"
+                },
+                {
+                    "text": "Insurance Jobs In Mumbai",
+                    "url": "https://www.naukri.com/insurance-jobs-in-mumbai"
+                },
+                {
+                    "text": "Business Jobs In Mumbai",
+                    "url": "https://www.naukri.com/business-jobs-in-mumbai"
+                },
+                {
+                    "text": "Btl Jobs In Mumbai",
+                    "url": "https://www.naukri.com/btl-jobs-in-mumbai"
+                }
+            ]
+        },
+        {
+            "tab": "Chennai",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs In Chennai",
+                    "url": "https://www.naukri.com/bd-jobs-in-chennai"
+                },
+                {
+                    "text": "Branding Jobs In Chennai",
+                    "url": "https://www.naukri.com/branding-jobs-in-chennai"
+                },
+                {
+                    "text": "Bde Jobs In Chennai",
+                    "url": "https://www.naukri.com/bde-jobs-in-chennai"
+                },
+                {
+                    "text": "Fresher Jobs In Chennai",
+                    "url": "https://www.naukri.com/fresher-jobs-in-chennai"
+                },
+                {
+                    "text": "Bdm Jobs In Chennai",
+                    "url": "https://www.naukri.com/bdm-jobs-in-chennai"
+                },
+                {
+                    "text": "Selling Jobs In Chennai",
+                    "url": "https://www.naukri.com/selling-jobs-in-chennai"
+                },
+                {
+                    "text": "Promotion Jobs In Chennai",
+                    "url": "https://www.naukri.com/promotion-jobs-in-chennai"
+                },
+                {
+                    "text": "Insurance Jobs In Chennai",
+                    "url": "https://www.naukri.com/insurance-jobs-in-chennai"
+                },
+                {
+                    "text": "Business Jobs In Chennai",
+                    "url": "https://www.naukri.com/business-jobs-in-chennai"
+                },
+                {
+                    "text": "Btl Jobs In Chennai",
+                    "url": "https://www.naukri.com/btl-jobs-in-chennai"
+                }
+            ]
+        },
+        {
+            "tab": "All Jobs",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Bd Jobs",
+                    "url": "https://www.naukri.com/bd-jobs"
+                },
+                {
+                    "text": "Branding Jobs",
+                    "url": "https://www.naukri.com/branding-jobs"
+                },
+                {
+                    "text": "Bde Jobs",
+                    "url": "https://www.naukri.com/bde-jobs"
+                },
+                {
+                    "text": "Fresher Jobs",
+                    "url": "https://www.naukri.com/fresher-jobs"
+                },
+                {
+                    "text": "Bdm Jobs",
+                    "url": "https://www.naukri.com/bdm-jobs"
+                },
+                {
+                    "text": "Selling Jobs",
+                    "url": "https://www.naukri.com/selling-jobs"
+                },
+                {
+                    "text": "Promotion Jobs",
+                    "url": "https://www.naukri.com/promotion-jobs"
+                },
+                {
+                    "text": "Insurance Jobs",
+                    "url": "https://www.naukri.com/insurance-jobs"
+                },
+                {
+                    "text": "Business Jobs",
+                    "url": "https://www.naukri.com/business-jobs"
+                },
+                {
+                    "text": "Btl Jobs",
+                    "url": "https://www.naukri.com/btl-jobs"
+                }
+            ]
+        },
+        {
+            "tab": "Top Companies",
+            "highlight": false,
+            "urlSet": [
+                {
+                    "text": "Innovaccer",
+                    "url": "https://www.naukri.com/innovaccer-overview-601264"
+                },
+                {
+                    "text": "EY",
+                    "url": "https://www.naukri.com/ey-overview-243080"
+                },
+                {
+                    "text": "Paytm",
+                    "url": "https://www.naukri.com/paytm-overview-144830"
+                },
+                {
+                    "text": "Accenture",
+                    "url": "https://www.naukri.com/accenture-overview-10476"
+                },
+                {
+                    "text": "ION",
+                    "url": "https://www.naukri.com/ion-overview-3739708"
+                },
+                {
+                    "text": "Hike",
+                    "url": "https://www.naukri.com/hike-overview-4599467"
+                },
+                {
+                    "text": "Droom",
+                    "url": "https://www.naukri.com/droom-overview-4574895"
+                },
+                {
+                    "text": "Adobe",
+                    "url": "https://www.naukri.com/adobe-overview-244334"
+                },
+                {
+                    "text": "Adidas",
+                    "url": "https://www.naukri.com/adidas-overview-154040"
+                },
+                {
+                    "text": "Cvent",
+                    "url": "https://www.naukri.com/cvent-overview-106364"
+                }
+            ]
+        }
+    ],
+    "suggesterModel": {
+        "qparams": {
+            "pFarea": 18
+        }
+    },
+    "seo": {
+        "title": "Page 3 - Marketing Jobs In Delhi - 5877 Marketing Job Vacancies In Delhi - Naukri.com",
+        "descp": "Apply To Marketing Jobs In Delhi On India's No. 1 Job Portal Naukri.com. Explore Latest Marketing Job Vacancies In Delhi Now! - Page 3"
+    },
+    "bellyFilters": {
+        "positions": [
+            7,
+            10
+        ],
+        "order": [
+            "salaryRange",
+            "topGroupId"
+        ]
+    },
+    "sid": "17480742669497574",
+    "isLoggedIn": false,
+    "variantName": "algo5",
+    "clusterOrder": [
+        "wfhType",
+        "experience",
+        "functionalAreaGid",
+        "salaryRange",
+        "business_size",
+        "roleGid",
+        "glbl_RoleCat",
+        "stipend",
+        "internshipDuration",
+        "ugCourseGid",
+        "employement",
+        "industryTypeGid",
+        "topCompanyId",
+        "topGroupId",
+        "freshness",
+        "citiesGid"
+    ],
+    "queryParamMap": {
+        "keyword": "marketing",
+        "searchType": "adv",
+        "location": "delhi",
+        "functionAreaIdGid": [
+            "9"
+        ],
+        "noOfResults": 20,
+        "clusters": [
+            "functionalAreaGid"
+        ],
+        "pageNo": 3,
+        "urlType": "search_by_key_loc",
+        "seoKey": "marketing-jobs-in-delhi-3",
+        "src": "directSearch",
+        "splitDate": 0,
+        "pseudoJobRequired": false,
+        "searchAppearanceTupleOnly": false,
+        "aurusRequest": false
+    },
+    "redUrl": "jobs-in-delhi",
+    "internshipSRP": false
+}

@@ -60,7 +60,7 @@ def call_agent():
     ip_addr = str(request.remote_addr)
 
     try:
-        response_ans = agents.callAgent(data['user_query'], ip_addr)
+        response_ans = agents.callAgent(str(data['user_query']).lower(), ip_addr)
         return jsonify({
             "success": True,
             "data": response_ans

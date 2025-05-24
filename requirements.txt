@@ -1,0 +1,14 @@
+beautifulsoup4==4.13.4
+boto3==1.35.85
+Flask==2.3.2
+Flask_Cors==4.0.0
+openai==1.82.0
+pandas==2.2.3
+protobuf==6.31.0
+python-dotenv==1.1.0
+Requests==2.32.3
+selenium==4.33.0
+selenium_wire==5.1.0
+google-api-core==2.24.2
+google-auth==2.22.0
+google-genai==1.12.1
